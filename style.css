@@ -1,0 +1,152 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+float: right;
+vertical-align: top;
+}
+li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.topnav {
+    display: inline block;
+    padding: 6px;
+    float: right;
+}
+.topnav img {
+    display: inline-block;
+    padding: 6px;
+    float: right;
+}
+button {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    font-size: 24px;
+    border: none;
+    color: white;
+    background-color: blue;
+
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    top: 50pt;
+    align-items: center;
+}
+
+.container {
+    width: 1000px;
+    height: 351px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-right: 25%;
+    align-self: center;
+    text-align: center;
+}
+
+input[ type=submit] {
+    background-color: #f2f2f2;
+    color: gray;
+    border: none;
+    width: 10em;
+    height: 2.5em;
+}
+
+.topnav a {
+    color: black;
+    font-size: 10pt;
+    font-family: arial;
+}
+input[type=placeholder] {
+    border-left: 30em;
+}
+#ip1 {
+    border-radius: 25px;
+    border-shadow: 0 1px 6px rgba;
+    border: solid;
+    border-width: thin;
+    border-color: #f2f2f2;
+    width: 40em;
+    height: 3em;
+}
+.searchTerm {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    width: 400px;
+    border-radius: 12px;
+    padding-left: 15pt;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+.footer {
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: arial;
+    
+}
+
+.footer-top {
+    bottom: 0;
+    padding-bottom: 25px;
+    position: absolute;
+    width:100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: gray;
+    padding-left: 10px;
+    font-size: 10pt;
+    padding-top: 0px;
+
+}
+.footer-bottom {
+    position: absolute;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 10px;
+    padding-bottom: 0;
+    bottom: 0;
+    font-size: 10pt;
+    font-family: arial;
+    padding-left: 10px;
+}
+
+.footer-bottom a {
+    color:gray;
+    
+}
+.bottom-right-site {
+    float: right;
+    padding-right: 30px;
+    
+}
+
+.bottom-left-site {
+    float: left;
+}
+
+
